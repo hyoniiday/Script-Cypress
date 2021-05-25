@@ -31,7 +31,7 @@ describe('룰렛 이벤트 참여하기', function () {
             //cy.visit('/')
             //cy.wait(2000)
             //cy.get('#nav > div:nth-child(5) > div > a.nav-banner.nav-banner').click({force: true})
-            cy.visit('https://fastcampus.co.kr/event_online_roulette')
+            cy.visit('/'+'event_online_roulette')
             cy.get('.spin-button__background').click({force: true})
                         //cy.scrollTo('bottom')
         })
