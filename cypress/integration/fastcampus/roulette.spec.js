@@ -1,10 +1,12 @@
 describe('룰렛 이벤트 참여하기', function () {
+
+    const event = 'event_online_roulette'
 /*
         it('정상적인 아이디로 로그인', function () {
             // 사이트 접속
             // 환경과 서비스명을 이용해서 사이트 접속하도록 구현 필요
     
-            cy.visit('https://fastcampus.co.kr/event_online_roulette')
+            cy.visit('/'+'event_online_roulette')
     
             //로그인 페이지로 이동하는 PATH
             cy.contains('로그인').click()
@@ -31,7 +33,7 @@ describe('룰렛 이벤트 참여하기', function () {
             //cy.visit('/')
             //cy.wait(2000)
             //cy.get('#nav > div:nth-child(5) > div > a.nav-banner.nav-banner').click({force: true})
-            cy.visit('/'+'event_online_roulette')
+            cy.visit('/'+ event)
             cy.get('.spin-button__background').click({force: true})
                         //cy.scrollTo('bottom')
         })
